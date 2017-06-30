@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  ActiveAdmin.routes(self)
 # my custom devise routes
   devise_for :users
   as :user do

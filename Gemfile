@@ -9,6 +9,7 @@ end
 gem 'rails', '~> 5.1.1'
 gem 'puma', '~> 3.7'
 gem 'jquery-rails'
+gem 'jquery-ui-rails'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
@@ -16,6 +17,8 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'devise'
+gem 'activeadmin'
+gem 'inherited_resources', github: 'activeadmin/inherited_resources'
 
 
 # Use Capistrano for deployment
