@@ -24,7 +24,7 @@ $gray-light:                #818a91;
 $gray-lighter:              #eceeef;
 $gray-lightest:             #f7f7f9;
 
-$brand-primary:             #0275d8;
+$brand-primary:             #0099e5;
 $brand-success:             #5cb85c;
 $brand-info:                #5bc0de;
 $brand-warning:             #f0ad4e;
@@ -36,10 +36,10 @@ $brand-inverse:             $gray-dark;
 //
 // Quickly modify global styling by enabling or disabling optional features.
 
-$enable-rounded:            true;
-$enable-shadows:            false;
-$enable-gradients:          false;
-$enable-transitions:        false;
+$enable-rounded:            false;
+$enable-shadows:            true;
+$enable-gradients:          true;
+$enable-transitions:        true;
 
 
 // Spacing
@@ -54,7 +54,7 @@ $border-width: 1px;
 //
 // Settings for the `<body>` element.
 
-$body-bg:    #fff;
+$body-bg:    #fbb034;
 $body-color: $gray-dark;
 
 
